@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    background-color: #F5F6FA;
+}
+
+.container-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    margin-top: 70px;
+    
+}
+
+.card-signin{
+    background-color: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    border-radius: 6px;
+    padding: 50px;
+}
+
+.text-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text-form h1{
+    color: #F23030;
+}
+
+.text-form p{
+    color: #828282;
+}
+
+.text-form a{
+    text-decoration: none;
+    color: #F23030;
+}
+
+.form-signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label, input{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
