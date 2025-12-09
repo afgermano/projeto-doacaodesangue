@@ -23,8 +23,3 @@ Projeto desenvolvido como integração das disciplinas do primeiro semestre: Eng
 ## Objetivo do sistema
 Conectar de forma simples doadores de sangue com pessoas que necessitam de transfusões, permitindo o registro de doadores e a busca por compatibilidade de tipo sanguíneo e proximidade (conceitual / para demonstração).
 
-
-
-
-   ```bash
-   git clone <URL-do-repositório>   # se houver um repositório
