@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Stack Sans Headline", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f5;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo à esquerda */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/* Links centralizados */
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Ícone de perfil à direita */
+.perfil img{
+    height: 35px;
+    width: auto;
+}
+
+
+/* HERO */
+.hero {
+    background-color: #ffebee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero h1 {
+    color: #c62828;
+    font-size: 60px;
+}
+
+/* BOXES */
+.boxes {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #ff5252;
+    color: white;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box:hover{
+    background-color: white;
+    color: #af0c0c;
+    transform: translateY(-3px);
+}
+.box-title{
+    margin-bottom: 10px;
+}
+
+/* CTA */
+.torne-doador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d32f2f;
+    color: white;
+    text-align: center;
+    gap: 10px;
+    padding: 40px 20px;
+    height: 60vh;
+}
+
+.torne-doador button {
+    background-color: white;
+    color: #d32f2f;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.torne-doador button:hover{
+    background-color: #af0c0c;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* HELP */
+.solicitar-doacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    height: 60vh;
+    gap: 10px;
+}
+
+.solicitar-doacao button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.solicitar-doacao button:hover{
+    background-color: rgb(238, 226, 226);
+    color: #d32f2f;
+    transform: translateY(-2px);
+}
+
+/* MAP */
+.map {
+    padding: 30px;
+    text-align: center;
+}
+
+.map-title{
+    margin-bottom: 20px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* CONTACT */
+.contact {
+    background-color: #ffebee;
+    padding: 30px;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contact button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact button:hover{
+    background-color: rgb(238, 226, 226);
+    color: #d32f2f;
+    transform: translateY(-2px);
+}
+
+/* FOOTER */
+.footer {
+    background-color: #b71c1c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* RESPONSIVO (Mobile) */
+@media (max-width: 768px) {
+    .menu {
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 300px;
+    }
+}
